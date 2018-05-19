@@ -1,0 +1,33 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "01-say",
+            "program": "${workspaceFolder}/clase01/intro/01-say.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "02-list",
+            "program": "${workspaceFolder}/clase01/intro/02-list.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "03-revealing",
+            "program": "${workspaceFolder}/clase01/intro/03-revealing.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "04-not-browser",
+            "program": "${workspaceFolder}/clase01/intro/04-not-browser.js"
+        }
+    ]
+}

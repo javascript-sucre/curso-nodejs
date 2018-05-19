@@ -1,0 +1,1 @@
+console.log(__dirname,__filename,exports,module,require);

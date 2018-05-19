@@ -1,0 +1,1 @@
+console.log(`message ${'lo que quieras'} :)`)

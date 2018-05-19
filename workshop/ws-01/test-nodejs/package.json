@@ -1,0 +1,24 @@
+{
+  "name": "demo-nodejs",
+  "version": "0.0.1",
+  "description": "es mi proyecyo ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanwalter45.git"
+  },
+  "keywords": [
+    "nodejs",
+    "application",
+    "demo"
+  ],
+  "author": "alanwalter45",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alanwalter45/issues"
+  },
+  "homepage": "https://github.com/alanwalter45#readme"
+}
