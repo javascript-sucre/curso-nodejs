@@ -1,14 +1,14 @@
-# WORKSHOP 01
+# LOAD HTML
 
 cargar y visualizar un archivo "index.html" en el navegador al ingresar a http://localhost:8000
 
 ```sh
 # abrir la terminal CTRL+ALT+T
-# crear el directorio llamado test-nodejs
-$ mkdir test-nodejs
+# crear el directorio llamado load-html
+$ mkdir load-html
 
-# ubicarse en el directorio de trabajo "test-nodejs"
-$ cd ./test-nodejs
+# ubicarse en el directorio de trabajo "load-html"
+$ cd ./load-html
 
 # establecer directorio como un proyecto / módulo
 $ npm init

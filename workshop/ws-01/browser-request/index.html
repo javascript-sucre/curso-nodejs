@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BROWSER REQUEST</title>
+</head>
+<body>
+    <h1>INFORMATION O.S.</h1>
+    <hr>
+    <p id="information"></p>
+
+    <script>
+        window.onload = function(){
+            fetch('http://localhost:8000').then((value)=>value.json()).then((value)=>{document.getElementById('information').innerText=value.platform})
+        }
+    </script>
+</body>
+</html>

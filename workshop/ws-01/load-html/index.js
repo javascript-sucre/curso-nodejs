@@ -1,5 +1,4 @@
-// importando las librerias que serán utilizadas 
-// (las librerias estan incluidas dentro de nodejs)
+// importando las librerias que serán utilizadas (las librerias estan incluidas dentro de nodejs)
 var http = require('http')
 var fs = require('fs')
 

@@ -1,0 +1,6 @@
+crear sistema de despliegue
+automatizar task server
+backups /respaldos
+.....
+...
+.
