@@ -1,0 +1,1 @@
+((sms)=>console.log('print ->'+ sms))('message')
