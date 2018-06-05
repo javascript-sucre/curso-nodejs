@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejemplo</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron">
+                    HELLO WORLD FROM BOOTSTRAP <a onclick="clickM()">click</a>
+                    <span id="txt_platform"></span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate error enim odio unde laudantium! Maiores
+                    libero eum alias ipsa, recusandae perspiciatis nihil quisquam, harum nemo iste fuga architecto enim quaerat
+                    cupiditate quis aut tempora itaque labore consequuntur eius! Culpa, tenetur!</p>
+            </div>
+            <div class="col-md-6">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate error enim odio unde laudantium! Maiores
+                    libero eum alias ipsa, recusandae perspiciatis nihil quisquam, harum nemo iste fuga architecto enim quaerat
+                    cupiditate quis aut tempora itaque labore consequuntur eius! Culpa, tenetur!</p>
+            </div>
+            <div class="col-md-2">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate error enim odio unde laudantium! Maiores
+                    libero eum alias ipsa, recusandae perspiciatis nihil quisquam, harum nemo iste fuga architecto enim quaerat
+                    cupiditate quis aut tempora itaque labore consequuntur eius! Culpa, tenetur!</p>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="col-md-12 alert alert-warning">
+                <img src="" class="img img-circle" alt=""> NOTA : esto es una prueba
+            </div>
+
+
+        </div>
+    </div>
+    <script>
+        
+            function clickM() {
+                fetch('http://localhost:8000').then((value) => value.text()).then((value) => {
+                    txt_platform.innerText = value;
+                })
+            }
+    </script>
+</body>
+
+</html>
