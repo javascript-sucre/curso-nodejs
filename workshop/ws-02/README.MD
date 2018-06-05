@@ -15,7 +15,7 @@ $ npm install --save bootstrap
 $ touch index.html
 ```
 
-descargar template html5 desde https://www.os-templates.com/free-website-templates
+descargar template html5 desde [www.os-templates.com](https://www.os-templates.com/free-website-templates)
 
 buscar por la plantilla MIRESA y descargar
 

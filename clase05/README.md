@@ -36,6 +36,9 @@ $ npm install forever -g
 $ forever start file.js
 ```
 
+## JASMINE JS
+página oficial de [jasmine](https://jasmine.github.io)
+
 ## MOCHA
 página oficial de [mocha](https://mochajs.org)
 
